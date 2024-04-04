@@ -11,14 +11,20 @@ Implementation of a subset of shell features written in C. Program functionality
 ### Example Execution
 ##### Compilation:
 
-`$ gcc --std=gnu99 -o smallsh smallsh.c`
+```
+$ gcc --std=gnu99 -o smallsh smallsh.c
+```
 
 
 ##### Execution:
 
-`$ ./smallsh`
+```
+$ ./smallsh
+```
 
 
 ##### Command line syntax:
 
-`: command [arg1 arg2 ... ] [ < input_file ] [ < output_file ] [&]`
+```
+: command [arg1 arg2 ... ] [ < input_file ] [ < output_file ] [&]
+```
